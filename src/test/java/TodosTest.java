@@ -48,6 +48,7 @@ public class TodosTest {
         Task[] actual = todos.search("Молоко");
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void searchTest2() {
         SimpleTask simpleTask = new SimpleTask(5, "Позвонить родителям");
